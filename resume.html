@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume Preview</title>
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+
+<body>
+
+<div class="resume" id="resume">
+
+<div class="header">
+
+<h1 id="r-name"></h1>
+
+<p id="r-role"></p>
+
+<p>
+<span id="r-email"></span> |
+<span id="r-phone"></span> |
+<span id="r-linkedin"></span>
+</p>
+
+</div>
+
+<div class="section">
+<h2>Summary</h2>
+<p id="r-summary"></p>
+</div>
+
+<div class="section">
+<h2>Education</h2>
+<p id="r-education"></p>
+</div>
+
+<div class="section">
+<h2>Technical Skills</h2>
+<ul id="r-skills"></ul>
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+<ul id="r-projects"></ul>
+</div>
+
+<div class="section">
+<h2>Certifications</h2>
+<ul id="r-certifications"></ul>
+</div>
+
+<div class="section">
+<h2>Hobbies</h2>
+<ul id="r-hobbies"></ul>
+</div>
+
+<div class="section">
+<h2>Extracurricular Activities</h2>
+<ul id="r-extra"></ul>
+</div>
+
+</div>
+
+<center>
+<button onclick="downloadPDF()">
+Download PDF
+</button>
+</center>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
